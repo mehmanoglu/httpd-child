@@ -1,4 +1,4 @@
-FROM httpd-parent:latest
+FROM docker-registry.default.svc:5000/openshift/httpd-parent
 
 EXPOSE 8080
 
