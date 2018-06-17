@@ -1,4 +1,4 @@
-FROM 172.30.4.244:5000/openshift/do288-httpd-parent
+FROM docker-registry.default.svc:5000/hello/httpd-parent
 
 EXPOSE 8080
 
