@@ -1,4 +1,4 @@
-FROM docker-registry.default.svc:5000/hello/httpd-parent
+FROM httpd-parent:latest
 
 EXPOSE 8080
 
